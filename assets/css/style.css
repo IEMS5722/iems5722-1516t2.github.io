@@ -8,37 +8,32 @@
 	URL: http://alvarez.is
 	
 ################################################################# */ 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
-* { 
-	margin: 0;
-	padding: 0px;
-} 
 
 body { 
 	background: #ffffff; 
 	margin: 0; 
 	height: 100%; 
 	color: #111111;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Arial', sans-serif;
+	font-size: 16px;
 	font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-weight: 500;
 }
 
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-weight: 400;
-	font-size: 14px; 
+	font-size: 16px; 
 	line-height: 24px;
 	color: #384452; 
 	margin-top: 10px; 
@@ -331,11 +326,16 @@ a:focus {
     margin-bottom: 22px;
 }
 .section_header {
-	color: #384452;
-	font-weight: 400;
-	font-size: 22px;
+	color: #3866CC;
+	font-weight: 500;
+	font-size: 24px;
 	padding: 5px 0px 5px 0px;
 }
+
+.lecture-cells {
+	text-align: center;
+}
+
 
 /* Footer */
 #footerwrap {
